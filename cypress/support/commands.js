@@ -1,3 +1,4 @@
+import Academy from '../pageObjects/Academy.po';
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -10,7 +11,22 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+Cypress.Commands.add('verifyParagraphContent', (nameFixtureFile, sectionTitle) => { 
+    const AcademyPO = new Academy();
+    cy.fixture(nameFixtureFile).then( paragraphContent => {
+        AcademyPO.verifySectionTitle(sectionTitle);
+        AcademyPO.verifyParagraphContent(paragraphContent);
+    })
+});
+
+Cypress.Commands.add('verifyItemContentContainingNonBreakingSpace', (nameFixtureFile, sectionTitle) => { 
+    const AcademyPO = new Academy();
+    cy.fixture(nameFixtureFile).then( paragraphContent => {
+       AcademyPO.verifyItemSectionTitle(sectionTitle);
+       AcademyPO.verifyItemContentContainingNonBreakingSpace(paragraphContent);
+   })
+});
+
 //
 //
 // -- This is a child command --

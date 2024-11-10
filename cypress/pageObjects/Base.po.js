@@ -1,5 +1,8 @@
-class Home {
+/// <reference types="cypress"/>
+
+class Base {
     
+    //Elements
     get cookiesAllowAll() {
         return cy.get('#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll');
     }
@@ -9,7 +12,7 @@ class Home {
     }
 
 
-
+    //Actions
     clickCookiesAllowAll() {
         this.cookiesAllowAll.click();
     };
@@ -20,4 +23,4 @@ class Home {
 
 }
 
-export default Home;
+export default Base;
