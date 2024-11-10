@@ -1,0 +1,17 @@
+{
+  "name": "assessmentcerios",
+  "version": "1.0.0",
+  "description": "Assessment on some basic UI flows on the Cerios website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "assessment"
+  ],
+  "author": "Benjamin Osei",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.2"
+  }
+}
