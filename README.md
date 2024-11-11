@@ -5,15 +5,21 @@ De focus is dan in deze dan ook gelegd op het navigeren naar een zelf gekozen pa
 Het idee achter de opzet is de implementatie van het POM (Page Object Model), zodat het geheel onderhoudbaar en in die zin dus modulair opgezet is.
 
     **Voordelen inzet POM als design pattern:**
-      - Herbruikbaarheid: Pagina-objecten kunnen worden hergebruikt in meerdere tests, wat de hoeveelheid duplicatie van code vermindert.
+      - Herbruikbaarheid: Pagina-objecten kunnen worden hergebruikt in meerdere tests, wat de hoeveelheid duplicatie van code 
+      vermindert.
 
-      - Onderhoudbaarheid: Als de gebruikersinterface verandert, hoeft alleen het betreffende pagina-object te worden bijgewerkt, niet alle tests die deze pagina gebruiken.
+      - Onderhoudbaarheid: Als de gebruikersinterface verandert, hoeft alleen het betreffende pagina-object te worden 
+      bijgewerkt, niet alle tests die deze pagina gebruiken.
 
-      - Leesbaarheid: Tests worden leesbaarder en begrijpelijker omdat ze gebruik maken van methoden die de acties op de pagina beschrijven. Hierin heb ik een stukje verfijning toegebracht middels de additionele           custom commands
+      - Leesbaarheid: Tests worden leesbaarder en begrijpelijker omdat ze gebruik maken van methoden die de acties op de pagina
+      beschrijven. Hierin heb ik een stukje verfijning toegebracht middels de additionele custom commands
 
-      - Scheiding van zorgen: Het scheidt de testlogica (laatJeInspireren.cy.js spec bestand) van de implementatiedetails (page object bestanden en custom commands) van de gebruikersinterface, wat leidt tot een            schonere en meer georganiseerde codebasis.
+      - Scheiding van zorgen: Het scheidt de testlogica (laatJeInspireren.cy.js spec bestand) van de implementatiedetails 
+      (page object bestanden en custom commands) van de gebruikersinterface, wat leidt tot een schonere en meer georganiseerde 
+      codebasis.
 
-- Betere foutopsporing: Omdat de logica en de UI-elementen gescheiden zijn, is het gemakkelijker om fouten te identificeren en op te lossen.
+      - Betere foutopsporing: Omdat de logica en de UI-elementen gescheiden zijn, is het gemakkelijker om fouten te identificeren en
+      op te lossen.
 
 
 **Uitdagingen tijdens het implementeren**
