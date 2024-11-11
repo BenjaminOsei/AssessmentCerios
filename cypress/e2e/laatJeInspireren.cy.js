@@ -1,10 +1,10 @@
 import Base from '../pageObjects/Base.po';
 
-describe('Navigate to the Academy page via the footer section and generally verify page content', () => {
+describe('Navigate to the Academy page via the footer section and generally verify the Academy page content', () => {
   it('Subset of sections on Academy page and its content', () => {
     const BasePo = new Base();
 
-    cy.visit('https://www.cerios.nl/');
+    cy.visit('/');
     BasePo.clickCookiesAllowAll();
     BasePo.clickFooterSectionAcademy();
     cy.verifyParagraphContent('laatJeInspireren', 'Laat je inspireren');

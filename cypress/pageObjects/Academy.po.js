@@ -19,7 +19,8 @@ class Academy {
         return cy.get('.item-wrapper').find('p')
     }
 
-    //filter function applied with non-breaking space syntax to be able to actually verify the html content
+    //filter function applied with non-breaking space syntax to be able to actually verify the html content using the contain.html
+    //within the should function
     get ItemContentContainingNonBreakingSpace() {
         return cy.get('.item-wrapper').find('p').filter(':contains("\u00a0")');
     }
