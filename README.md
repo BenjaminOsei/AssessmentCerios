@@ -1,7 +1,7 @@
 **Welkom bij het project AssessmentCerios!**
 
 Dit werk omvat het vanaf scratch opzetten/gebruikmaken van een raamwerk waarbinnen er testen geschreven kunnen worden en geschreven zijn met Cypress. Het omvat het neerzetten van een basis, wat zich leent voor verdere uitbreiding.
-De focus is dan in deze dan ook gelegd op het navigeren naar een zelf gekozen pagina (Academy) via de footer sectie van de pagina en vervolgens assertions uitvoeren op inhoud van de pagina.
+De focus is dan in deze dan ook gelegd op het navigeren naar een zelf gekozen pagina (Academy) via de footer sectie van de landingspagina van de Cerios website en vervolgens assertions uitvoeren op inhoud van de Academy pagina.
 Het idee achter de opzet is de implementatie van het POM (Page Object Model), zodat het geheel onderhoudbaar en in die zin dus modulair opgezet is.
 
     **Voordelen inzet POM als design pattern:**
