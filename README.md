@@ -18,8 +18,8 @@ Het idee achter de opzet is de implementatie van het POM (Page Object Model), zo
       (page object bestanden en custom commands) van de gebruikersinterface, wat leidt tot een schonere en meer georganiseerde 
       codebasis.
 
-      - Betere foutopsporing: Omdat de logica en de UI-elementen gescheiden zijn, is het gemakkelijker om fouten te identificeren en
-      op te lossen.
+      - Betere foutopsporing: Omdat de logica en de UI-elementen gescheiden zijn, is het gemakkelijker om fouten te identificeren
+      en op te lossen.
 
 
 **Uitdagingen tijdens het implementeren**
