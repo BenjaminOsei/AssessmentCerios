@@ -24,7 +24,7 @@ Het idee achter de opzet is de implementatie van het POM (Page Object Model), zo
 
 **Uitdagingen tijdens het implementeren**
 Het met Cypress geïmplementeerd krijgen van het adequaat kunnen verifiëren van een stuk tekst die de zogenaamde non-breaking space binnen de html van één van de pagina's bevat.
-Dit is uiteindelijk goed gekomen filter functie, refererend aan de non-breaking space middels de definitie "\u00a0" wat er als het ware dan weer uitgefilterd wordt. 
+Dit is uiteindelijk goed gekomen middels de filter functie, refererend aan de non-breaking space middels de definitie "\u00a0" wat er als het ware dan weer uitgefilterd wordt. 
 Hierin is het echter wel benodigd dat Cypress op html niveau leest.
 
 **Opmerkingen:**
